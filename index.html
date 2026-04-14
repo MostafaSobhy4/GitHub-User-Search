@@ -1,0 +1,50 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>GitHub User Search</title>
+</head>
+<body class="bg-gray-900 text-white">
+    <header class="w-full">
+        <div class="max-w-2xl mx-auto px-4">
+            <nav class="bg-gray-800 mt-10 flex justify-between items-center p-4 rounded shadow-lg">
+                <a href="index.html" class="text-white text-xl">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <button class="darklight text-white text-xl hover:text-gray-300 transition cursor-pointer">
+                    <i class="fa-regular fa-moon"></i>
+                </button>
+            </nav>
+
+        </div>
+    </header>
+
+    <main class="">
+        <section class="search&input w-full mt-5">
+            <div class="max-w-2xl mx-auto px-4">
+                <div class="searchContent bg-gray-800 p-4 rounded shadow-l flex gap-2 items-center">
+                    <div class="basis-3/4 flex items-center gap-2">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input class="inpsearch w-full p-2 border-3 border-gray-900 outline-none rounded" type="text" name="" id="" placeholder="Search GitHub Username">
+                    </div>
+                    <button class="search bg-blue-500 hover:bg-blue-600 basis-1/4 rounded py-3 cursor-pointer">Search</button>
+                </div>
+            </div>
+        </section>
+        <section class="user w-full">
+            <div class="max-w-2xl mx-auto px-4">
+                <div class="userCard bg-gray-800 mt-5 flex gap-10 items-center p-8 rounded shadow-lg">
+                    <div class="cardcontain bg-gray-800 p-6 rounded shadow-lg text-center m-auto"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
